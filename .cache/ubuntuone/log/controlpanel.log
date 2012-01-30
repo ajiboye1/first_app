@@ -1,0 +1,41 @@
+2012-01-27 20:26:36,106 - ubuntuone.controlpanel.gtk.gui - DEBUG - ControlPanel: started.
+2012-01-27 20:26:36,107 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,183 - ubuntuone.controlpanel.gtk.gui - DEBUG - OverviewPanel: started.
+2012-01-27 20:26:36,218 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,223 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,225 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,226 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,227 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,256 - ubuntuone.controlpanel.gtk.gui - INFO - on_network_state_changed: args (<OverviewPanel object at 0x936f16c (ubuntuone+controlpanel+gui+gtk+gui+OverviewPanel at 0x8a94dc0)>, <object object at 0xb77c44e8>), kwargs {}.
+2012-01-27 20:26:36,289 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,304 - ubuntuone.controlpanel.gtk.gui - DEBUG - ManagementPanel: started.
+2012-01-27 20:26:36,304 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,305 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,341 - ubuntuone.controlpanel.gtk.gui - DEBUG - FileSyncStatus: started.
+2012-01-27 20:26:36,423 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,430 - ubuntuone.controlpanel.gtk.gui - DEBUG - DashboardPanel: started.
+2012-01-27 20:26:36,449 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,480 - ubuntuone.controlpanel.gtk.gui - WARNING - <gtk.CellRendererText object at 0x93842ac (GtkCellRendererText at 0x8bd24d8)> has no name (??)
+2012-01-27 20:26:36,481 - ubuntuone.controlpanel.gtk.gui - WARNING - <gtk.CellRendererToggle object at 0x938434c (GtkCellRendererToggle at 0x8a95258)> has no name (??)
+2012-01-27 20:26:36,481 - ubuntuone.controlpanel.gtk.gui - WARNING - <gtk.CellRendererPixbuf object at 0x93843ec (GtkCellRendererPixbuf at 0x93b88d0)> has no name (??)
+2012-01-27 20:26:36,481 - ubuntuone.controlpanel.gtk.gui - WARNING - <gtk.CellRendererText object at 0x9384414 (GtkCellRendererText at 0x8bd2570)> has no name (??)
+2012-01-27 20:26:36,481 - ubuntuone.controlpanel.gtk.gui - DEBUG - VolumesPanel: started.
+2012-01-27 20:26:36,552 - ubuntuone.controlpanel.gtk.gui - DEBUG - SharesPanel: started.
+2012-01-27 20:26:36,552 - ubuntuone.controlpanel.gtk.gui - DEBUG - on_success: args (<SharesPanel object at 0x9384284 (GtkVBox at 0x9475ac0)>, 'Not implemented yet.'), kwargs {}.
+2012-01-27 20:26:36,553 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,555 - ubuntuone.controlpanel.gtk.gui - DEBUG - DevicesPanel: started.
+2012-01-27 20:26:36,621 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,656 - ubuntuone.controlpanel.gtk.gui - DEBUG - ServicesPanel: started.
+2012-01-27 20:26:36,656 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,664 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,668 - ubuntuone.controlpanel.utils - DEBUG - get_project_dir: trying use data dir at '/usr/lib/python2.7/dist-packages/ubuntuone-control-panel/data' (exists? False)
+2012-01-27 20:26:36,703 - ubuntuone.controlpanel.gtk.gui - DEBUG - FileSyncService: started.
+2012-01-27 20:26:36,827 - ubuntuone.controlpanel.gtk.gui - DEBUG - ControlPanel: started (window size (-1, -1)).
+2012-01-27 20:26:37,125 - ubuntuone.controlpanel.gtk.gui - INFO - Starting ControlPanelWindow pointing at panel: ''.
+2012-01-27 20:26:37,125 - ubuntuone.controlpanel.gtk.gui - DEBUG - ControlPanelWindow: started (window size (736, 525)).
+2012-01-27 20:26:39,767 - ubuntuone.controlpanel.gtk.gui - INFO - on_credentials_not_found: args (<OverviewPanel object at 0x936f16c (ubuntuone+controlpanel+gui+gtk+gui+OverviewPanel at 0x8a94dc0)>,), kwargs {}.
+2012-01-27 20:26:39,885 - ubuntuone.controlpanel.backend - INFO - ControlBackend: instance started.
+2012-01-27 20:26:39,887 - ubuntuone.controlpanel.dbus_service - DEBUG - ControlPanelBackend: created with (), {'bus_name': <dbus.service.BusName com.ubuntuone.controlpanel on <dbus._dbus.SessionBus (session) at 0x8c98bfc> at 0x8caa62c>, 'object_path': '/preferences'}.
+2012-01-27 20:26:44,293 - ubuntuone.controlpanel.gtk.gui - INFO - Shutting down...
+2012-01-27 20:26:44,294 - ubuntuone.controlpanel.dbus_service - INFO - shutdown: args (<ubuntuone.controlpanel.dbus_service.ControlPanelBackend at /preferences at 0x8ccedec>,), kwargs {}.
+2012-01-27 20:26:44,294 - ubuntuone.controlpanel.backend - INFO - shutdown: args (<ubuntuone.controlpanel.backend.ControlBackend object at 0x8caa20c>,), kwargs {}.

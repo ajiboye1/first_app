@@ -1,0 +1,12 @@
+ds7:commands491:cat <<'EOF' | run_templates -t -s 'udev_resource | filter_templates -w "category=CDROM"'
+plugin: manual
+name: optical/read_`ls /sys$path/block`
+requires: device.path == "$path" and package.name == 'linux'
+depends: optical/detect
+user: root
+command: optical_read_test /dev/`ls /sys$path/block`
+_description:
+ Please insert appropriate non-blank media into your optical drive(s) and click "Test" to automatically test reading.
+ .
+ The test result will be updated when the test is complete.
+EOFs11:descriptionu33:Optical Storage device read testss4:names12:optical/reads6:plugins5:locals8:requiresls26:device.category == 'CDROM';s6:statuss11:uninitiateds5:suites11:__optical__s4:types5:suite;

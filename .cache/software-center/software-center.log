@@ -1,0 +1,110 @@
+2011-10-14 11:17:26,407 - softwarecenter.ui.gtk3.em - INFO - EM's: 22 18 26
+2011-10-14 11:17:29,524 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2011-10-14 11:17:30,004 - softwarecenter.ui.gtk3.utils - INFO - Softwarecenter style provider for ambiance Gtk theme: /usr/share/software-center/ui/gtk3/css/softwarecenter.css
+2011-10-14 11:17:43,612 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper
+2011-10-14 11:17:43,629 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper
+2011-10-14 11:17:43,701 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'ERROR:__main__:available_apps
+Traceback (most recent call last):
+  File "/usr/share/software-center/piston_get_scagent_available_apps.py", line 148, in <module>
+    piston_reply = scaclient.available_apps(**kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 120, in wrapper
+    body = func(self, *args, **kwargs)
+  File "/usr/share/software-center/softwarecenter/backend/piston/scaclient_pristine.py", line 22, in available_apps
+    scheme=PUBLIC_API_SCHEME)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 321, in _get
+    headers=headers)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 474, in _request
+    method=method, body=body, headers=headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1436, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1188, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1129, in _conn_request
+    raise ServerNotFoundError("Unable to find the server at %s" % conn.host)
+ServerNotFoundError: Unable to find the server at software-center.ubuntu.com
+'
+2011-10-14 11:17:43,701 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'ERROR:__main__:get_review_stats
+Traceback (most recent call last):
+  File "/usr/share/software-center/piston_get_review_stats_helper.py", line 46, in <module>
+    piston_review_stats = rnrclient.review_stats(**kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 61, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 120, in wrapper
+    body = func(self, *args, **kwargs)
+  File "/usr/share/software-center/softwarecenter/backend/piston/rnrclient_pristine.py", line 96, in review_stats
+    return self._get(url, scheme=PUBLIC_API_SCHEME)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 321, in _get
+    headers=headers)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 474, in _request
+    method=method, body=body, headers=headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1436, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1188, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1129, in _conn_request
+    raise ServerNotFoundError("Unable to find the server at %s" % conn.host)
+ServerNotFoundError: Unable to find the server at reviews.ubuntu.com
+'
+2011-10-14 11:17:43,703 - softwarecenter.db.update - WARNING - error: ERROR:__main__:available_apps
+Traceback (most recent call last):
+  File "/usr/share/software-center/piston_get_scagent_available_apps.py", line 148, in <module>
+    piston_reply = scaclient.available_apps(**kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 120, in wrapper
+    body = func(self, *args, **kwargs)
+  File "/usr/share/software-center/softwarecenter/backend/piston/scaclient_pristine.py", line 22, in available_apps
+    scheme=PUBLIC_API_SCHEME)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 321, in _get
+    headers=headers)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 474, in _request
+    method=method, body=body, headers=headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1436, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1188, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1129, in _conn_request
+    raise ServerNotFoundError("Unable to find the server at %s" % conn.host)
+ServerNotFoundError: Unable to find the server at software-center.ubuntu.com
+
+2011-10-14 11:17:44,028 - softwarecenter.ui.gtk3.app - INFO - software-center-agent finished with status 1
+2011-10-14 11:17:53,255 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper
+2011-10-14 11:17:53,259 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'ERROR:__main__:exhibits
+Traceback (most recent call last):
+  File "/usr/share/software-center/piston_get_scagent_available_apps.py", line 173, in <module>
+    piston_reply = scaclient.exhibits(lang=args.lang)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 120, in wrapper
+    body = func(self, *args, **kwargs)
+  File "/usr/share/software-center/softwarecenter/backend/piston/scaclient_pristine.py", line 55, in exhibits
+    'exhibits/%s/' % (lang))
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 321, in _get
+    headers=headers)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 474, in _request
+    method=method, body=body, headers=headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1436, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1188, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1129, in _conn_request
+    raise ServerNotFoundError("Unable to find the server at %s" % conn.host)
+ServerNotFoundError: Unable to find the server at software-center.ubuntu.com
+'
+2012-01-27 20:26:19,512 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/share/software-center/softwarecenter/netstatus.py', 108, '__init_network_state')'
+2012-01-27 20:26:19,512 - root - WARNING - failed to init network state watcher 'org.freedesktop.DBus.Error.NoServer: Failed to connect to socket /var/run/dbus/system_bus_socket: Connection refused'
+2012-01-27 20:26:20,735 - softwarecenter.ui.gtk3.em - INFO - EM's: 20 17 24

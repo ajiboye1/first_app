@@ -1,0 +1,57 @@
+3219 [2012-01-28 19:26:30,241] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 11.773083s
+3219 [2012-01-28 19:26:33,549] - DEBUG - zeitgeist.fts - Indexing 'application://file-roller.desktop'
+3219 [2012-01-28 19:26:38,436] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-28 19:26:42,045] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.068283s
+3219 [2012-01-28 19:26:42,107] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-28 19:26:43,735] - DEBUG - zeitgeist.fts - Indexing 'application://file-roller.desktop'
+3219 [2012-01-28 19:26:44,246] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-28 19:27:55,295] - DEBUG - zeitgeist.fts - Indexing 'file:///home/user/Documents'
+3219 [2012-01-28 19:27:55,308] - DEBUG - zeitgeist.engine - Inserted 3 events out of 3 in 0.370675s
+3219 [2012-01-28 19:27:55,309] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-28 19:27:55,309] - DEBUG - zeitgeist.notify - Notifying :1.120/org/gnome/zeitgeist/monitor/0 about 3 insertions
+3219 [2012-01-28 19:27:55,339] - DEBUG - zeitgeist.fts - Indexing 'file:///home/user/Documents'
+3219 [2012-01-28 19:27:55,358] - DEBUG - zeitgeist.fts - Indexing 'file:///home/user/Documents'
+3219 [2012-01-28 19:27:56,272] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-28 19:27:56,628] - DEBUG - zeitgeist.fts - Search '(gedit*) AND ((zgem:http://www.zeitgeist-project.com/ontologies/2010/01/27/zg#UserActivity) AND (zgsu:file_*))' gave 3 hits in 349.35092926ms
+3219 [2012-01-28 19:27:57,160] - DEBUG - zeitgeist.engine - Found 1 events in 0.165550s
+3219 [2012-01-28 19:27:57,513] - DEBUG - zeitgeist.engine - Got 0 raw events in 0.352229s
+3219 [2012-01-28 19:27:57,514] - DEBUG - zeitgeist.engine - Got 1 events in 0.000637s
+3219 [2012-01-28 19:27:57,514] - DEBUG - zeitgeist.engine -     Where time spent in _get_event_from_row in 0.000000s
+3219 [2012-01-28 19:27:57,514] - DEBUG - zeitgeist.engine -     Where time spent in _get_subject_from_row in 0.000000s
+3219 [2012-01-28 19:27:57,515] - DEBUG - zeitgeist.engine -     Where time spent in apply_get_hooks in 0.000000s
+3219 [2012-01-28 19:29:07,981] - DEBUG - zeitgeist.fts - Indexing 'application://gedit.desktop'
+3219 [2012-01-28 19:29:07,995] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.197239s
+3219 [2012-01-28 19:29:07,995] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-28 19:29:08,580] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-28 19:29:09,295] - DEBUG - zeitgeist.fts - Indexing 'file:///home/user/Documents/rubygems-1.8.15/setup.rb'
+3219 [2012-01-28 19:29:09,328] - DEBUG - zeitgeist.engine - Inserted 3 events out of 3 in 0.050978s
+3219 [2012-01-28 19:29:09,328] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-28 19:29:09,329] - DEBUG - zeitgeist.notify - Notifying :1.120/org/gnome/zeitgeist/monitor/0 about 3 insertions
+3219 [2012-01-28 19:29:09,358] - DEBUG - zeitgeist.fts - Indexing 'file:///home/user/Documents/rubygems-1.8.15/setup.rb'
+3219 [2012-01-28 19:29:09,443] - DEBUG - zeitgeist.fts - Search '(gedit*) AND ((zgem:http://www.zeitgeist-project.com/ontologies/2010/01/27/zg#UserActivity) AND (zgsu:file_*))' gave 5 hits in 2.14099884033ms
+3219 [2012-01-28 19:29:09,448] - DEBUG - zeitgeist.engine - Found 2 events in 0.003223s
+3219 [2012-01-28 19:29:09,637] - DEBUG - zeitgeist.engine - Got 1 raw events in 0.025179s
+3219 [2012-01-28 19:29:09,637] - DEBUG - zeitgeist.engine - Got 2 events in 0.163374s
+3219 [2012-01-28 19:29:09,637] - DEBUG - zeitgeist.engine -     Where time spent in _get_event_from_row in 0.000548s
+3219 [2012-01-28 19:29:09,638] - DEBUG - zeitgeist.engine -     Where time spent in _get_subject_from_row in 0.161849s
+3219 [2012-01-28 19:29:09,638] - DEBUG - zeitgeist.engine -     Where time spent in apply_get_hooks in 0.000032s
+3219 [2012-01-28 19:29:09,786] - DEBUG - zeitgeist.fts - Indexing 'file:///home/user/Documents/rubygems-1.8.15/setup.rb'
+3219 [2012-01-28 19:29:10,349] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-28 19:29:23,543] - DEBUG - zeitgeist.fts - Indexing 'file:///home/user/Documents/rubygems-1.8.15/setup.rb'
+3219 [2012-01-28 19:29:23,550] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.056543s
+3219 [2012-01-28 19:29:23,551] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-28 19:29:23,551] - DEBUG - zeitgeist.notify - Notifying :1.120/org/gnome/zeitgeist/monitor/0 about 1 insertions
+3219 [2012-01-28 19:29:23,563] - DEBUG - zeitgeist.fts - Search '(gedit*) AND ((zgem:http://www.zeitgeist-project.com/ontologies/2010/01/27/zg#UserActivity) AND (zgsu:file_*))' gave 7 hits in 1.97315216064ms
+3219 [2012-01-28 19:29:23,568] - DEBUG - zeitgeist.engine - Found 2 events in 0.003611s
+3219 [2012-01-28 19:29:23,717] - DEBUG - zeitgeist.engine - Got 1 raw events in 0.147132s
+3219 [2012-01-28 19:29:23,717] - DEBUG - zeitgeist.engine - Got 2 events in 0.001056s
+3219 [2012-01-28 19:29:23,717] - DEBUG - zeitgeist.engine -     Where time spent in _get_event_from_row in 0.000278s
+3219 [2012-01-28 19:29:23,718] - DEBUG - zeitgeist.engine -     Where time spent in _get_subject_from_row in 0.000074s
+3219 [2012-01-28 19:29:23,718] - DEBUG - zeitgeist.engine -     Where time spent in apply_get_hooks in 0.000029s
+3219 [2012-01-28 19:29:24,167] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-28 19:34:11,896] - DEBUG - zeitgeist.engine - Found 3 events in 0.049726s
+3219 [2012-01-28 19:34:11,898] - DEBUG - zeitgeist.engine - Got 1 raw events in 0.000942s
+3219 [2012-01-28 19:34:11,899] - DEBUG - zeitgeist.engine - Got 3 events in 0.000464s
+3219 [2012-01-28 19:34:11,899] - DEBUG - zeitgeist.engine -     Where time spent in _get_event_from_row in 0.000072s
+3219 [2012-01-28 19:34:11,899] - DEBUG - zeitgeist.engine -     Where time spent in _get_subject_from_row in 0.000053s
+3219 [2012-01-28 19:34:11,899] - DEBUG - zeitgeist.engine -     Where time spent in apply_get_hooks in 0.000009s

@@ -1,0 +1,1 @@
+ds7:commands46:find /etc/modprobe.* -name \*.conf | xargs cats4:names24:info/modprobe_attachments6:plugins10:attachments6:statuss11:uninitiateds5:suites8:__info__s4:types10:attachment;

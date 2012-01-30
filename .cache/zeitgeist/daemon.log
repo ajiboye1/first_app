@@ -1,0 +1,44 @@
+3219 [2012-01-29 12:04:39,320] - DEBUG - zeitgeist.engine - Inserted 3 events out of 3 in 12.735378s
+3219 [2012-01-29 12:04:44,682] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-29 12:04:44,650] - DEBUG - zeitgeist.fts - Indexing 'file:///home/user/rails_projects/first_app/Gemfile'
+3219 [2012-01-29 12:04:44,911] - DEBUG - zeitgeist.notify - Notifying :1.120/org/gnome/zeitgeist/monitor/0 about 3 insertions
+3219 [2012-01-29 12:04:46,451] - DEBUG - zeitgeist.engine - Found 4 events in 0.712740s
+3219 [2012-01-29 12:04:46,786] - DEBUG - zeitgeist.engine - Got 1 raw events in 0.289937s
+3219 [2012-01-29 12:04:46,787] - DEBUG - zeitgeist.engine - Got 4 events in 0.045111s
+3219 [2012-01-29 12:04:46,787] - DEBUG - zeitgeist.engine -     Where time spent in _get_event_from_row in 0.017568s
+3219 [2012-01-29 12:04:46,788] - DEBUG - zeitgeist.engine -     Where time spent in _get_subject_from_row in 0.026176s
+3219 [2012-01-29 12:04:46,788] - DEBUG - zeitgeist.engine -     Where time spent in apply_get_hooks in 0.000050s
+3219 [2012-01-29 12:04:47,988] - DEBUG - zeitgeist.fts - Indexing 'file:///home/user/rails_projects/first_app/Gemfile'
+3219 [2012-01-29 12:04:48,039] - DEBUG - zeitgeist.fts - Indexing 'file:///home/user/rails_projects/first_app/Gemfile'
+3219 [2012-01-29 12:04:48,567] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-29 12:06:56,212] - DEBUG - zeitgeist.fts - Indexing 'file:///home/user/rails_projects/first_app/Gemfile'
+3219 [2012-01-29 12:06:56,241] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.041312s
+3219 [2012-01-29 12:06:56,242] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-29 12:06:56,243] - DEBUG - zeitgeist.notify - Notifying :1.120/org/gnome/zeitgeist/monitor/0 about 1 insertions
+3219 [2012-01-29 12:06:56,825] - DEBUG - zeitgeist.engine - Found 4 events in 0.538725s
+3219 [2012-01-29 12:06:56,836] - DEBUG - zeitgeist.engine - Got 1 raw events in 0.009779s
+3219 [2012-01-29 12:06:56,837] - DEBUG - zeitgeist.engine - Got 4 events in 0.001247s
+3219 [2012-01-29 12:06:56,837] - DEBUG - zeitgeist.engine -     Where time spent in _get_event_from_row in 0.000127s
+3219 [2012-01-29 12:06:56,838] - DEBUG - zeitgeist.engine -     Where time spent in _get_subject_from_row in 0.000137s
+3219 [2012-01-29 12:06:56,838] - DEBUG - zeitgeist.engine -     Where time spent in apply_get_hooks in 0.000026s
+3219 [2012-01-29 12:06:57,326] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-29 12:08:41,676] - DEBUG - zeitgeist.fts - Indexing 'application://gedit.desktop'
+3219 [2012-01-29 12:08:41,730] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.108217s
+3219 [2012-01-29 12:08:41,731] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-29 12:08:42,299] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-29 17:23:05,119] - DEBUG - zeitgeist.fts - Search '(category:Network) AND ((zgei:http://www.zeitgeist-project.com/ontologies/2010/01/27/zg#AccessEvent) AND (zgem:http://www.zeitgeist-project.com/ontologies/2010/01/27/zg#UserActivity) AND (zgsu:application___*))' gave 8 hits in 193.047046661ms
+3219 [2012-01-29 17:23:05,214] - DEBUG - zeitgeist.engine - Found 1 events in 0.050620s
+3219 [2012-01-29 17:23:05,218] - DEBUG - zeitgeist.engine - Got 1 raw events in 0.001872s
+3219 [2012-01-29 17:23:05,218] - DEBUG - zeitgeist.engine - Got 1 events in 0.001842s
+3219 [2012-01-29 17:23:05,219] - DEBUG - zeitgeist.engine -     Where time spent in _get_event_from_row in 0.000370s
+3219 [2012-01-29 17:23:05,229] - DEBUG - zeitgeist.engine -     Where time spent in _get_subject_from_row in 0.000541s
+3219 [2012-01-29 17:23:05,229] - DEBUG - zeitgeist.engine -     Where time spent in apply_get_hooks in 0.000345s
+3219 [2012-01-29 17:23:20,104] - DEBUG - zeitgeist.fts - Search '((category:System OR category:Security)) AND ((zgei:http://www.zeitgeist-project.com/ontologies/2010/01/27/zg#AccessEvent) AND (zgem:http://www.zeitgeist-project.com/ontologies/2010/01/27/zg#UserActivity) AND (zgsu:application___*))' gave 1 hits in 0.37407875061ms
+3219 [2012-01-29 17:23:58,820] - DEBUG - zeitgeist.fts - Indexing 'application://checkbox-gtk.desktop'
+3219 [2012-01-29 17:23:58,895] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.089666s
+3219 [2012-01-29 17:23:58,896] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-29 17:23:59,340] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-29 19:44:33,431] - DEBUG - zeitgeist.fts - Indexing 'application://firefox.desktop'
+3219 [2012-01-29 19:44:33,457] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.075128s
+3219 [2012-01-29 19:44:33,457] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-29 19:44:33,964] - DEBUG - zeitgeist.fts - Committing FTS index

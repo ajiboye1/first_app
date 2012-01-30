@@ -1,0 +1,8 @@
+ds7:commands335:cat <<'EOF' | run_templates -t -s 'udev_resource | filter_templates -w "category=DISK"'
+plugin: shell
+name: disk/benchmark_`ls /sys$path/block`
+requires: device.path == "$path" and package.name == 'linux'
+user: root
+command: hdparm -tT /dev/`ls /sys$path/block` | sed 's/:.*= */ = /' | grep -v "^$"
+description: Benchmark for $path
+EOFs11:descriptionu23:Benchmark for each disks4:names15:disk/benchmarkss6:plugins5:locals8:requiresls25:device.category == 'DISK';s6:statuss11:uninitiateds5:suites8:__disk__s4:types5:suite;

@@ -1,0 +1,1 @@
+ds7:commands48:amixer > $CHECKBOX_DATA/audio_before_suspend.txts11:descriptionu33:Test the audio before suspending.s4:names28:suspend/audio_before_suspends6:plugins5:shells8:requiresls26:device.category == 'AUDIO's27:package.name == 'alsa-base';s6:statuss11:uninitiateds5:suites11:__suspend__s4:types4:test;

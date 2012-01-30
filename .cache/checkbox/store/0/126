@@ -1,0 +1,5 @@
+ds7:commands27:watch_command -q -r 5 lsusbs7:dependsls10:usb/detect;s11:descriptionu296:Click 'Test' and insert a USB device within 5 seconds.
+If the test is successful, you should notice that 'Yes' is selected below.
+Do not unplug the device if the test is successful.
+
+If no USB device is inserted or the device is not recognized, the test will fail and 'No' will be selected below.s4:names10:usb/inserts6:plugins6:manuals8:requiresls23:package.name == 'linux';s6:statuss11:uninitiateds5:suites7:__usb__s4:types4:test;

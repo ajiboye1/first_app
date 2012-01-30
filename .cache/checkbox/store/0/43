@@ -1,0 +1,4 @@
+ds7:commands47:resolution_test --horizontal 800 --vertical 600s11:descriptionu181:Ensure the current resolution meets or exceeds the recommended minimum
+resolution (800x600). See here for details:
+
+https://help.ubuntu.com/community/Installation/SystemRequirementss4:names27:graphics/minimum_resolutions6:plugins5:shells8:requiresls26:device.category == 'VIDEO';s6:statuss11:uninitiateds5:suites12:__graphics__s4:types4:test;

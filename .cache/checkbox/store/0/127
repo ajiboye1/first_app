@@ -1,0 +1,4 @@
+ds7:commands27:watch_command -q -r 5 lsusbs7:dependsls10:usb/insert;s11:descriptionu263:Click 'Test' and remove the USB device you inserted within 5 seconds.
+If the test is successful, you should notice that 'Yes' is selected below.
+
+If the USB device isn't removed or the removal is not registered, the test will fail and 'No' will be selected below.s4:names10:usb/removes6:plugins6:manuals8:requiresls23:package.name == 'linux';s6:statuss11:uninitiateds5:suites7:__usb__s4:types4:test;

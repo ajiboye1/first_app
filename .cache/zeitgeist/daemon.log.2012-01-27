@@ -1,0 +1,88 @@
+3219 [2012-01-27 20:19:40,615] - DEBUG - singleton - Checking for another running instance...
+3219 [2012-01-27 20:19:40,860] - INFO - zeitgeist.sql - Using database: /home/user/.local/share/zeitgeist/activity.sqlite
+3219 [2012-01-27 20:19:40,913] - DEBUG - zeitgeist.sql - Core schema is good. DB loaded in 53.0960559845ms
+3219 [2012-01-27 20:19:40,915] - DEBUG - zeitgeist.extension - Searching for system extensions in: /usr/share/zeitgeist/_zeitgeist/engine/extensions
+3219 [2012-01-27 20:19:40,932] - DEBUG - zeitgeist.extension - Searching for user extensions in: /home/user/.local/share/zeitgeist/extensions
+3219 [2012-01-27 20:19:41,534] - DEBUG - zeitgeist.extension - No extra extensions
+3219 [2012-01-27 20:19:41,534] - DEBUG - zeitgeist.extension - Found extensions: [<class '_zeitgeist.engine.extensions.storagemonitor.StorageMonitor'>, <class '_zeitgeist.engine.extensions.fts.SearchEngineExtension'>, <class '_zeitgeist.engine.extensions.blacklist.Blacklist'>, <class '_zeitgeist.engine.extensions.datasource_registry.DataSourceRegistry'>]
+3219 [2012-01-27 20:19:41,535] - DEBUG - zeitgeist.extension - Loading extension 'StorageMonitor'
+3219 [2012-01-27 20:19:41,932] - DEBUG - zeitgeist.storagemonitor - Setting storage medium floppy0 'floppy0' as available
+3219 [2012-01-27 20:19:41,955] - ERROR - zeitgeist.extension - Failed loading the 'StorageMonitor' extension
+Traceback (most recent call last):
+  File "/usr/share/zeitgeist/_zeitgeist/engine/extension.py", line 265, in load
+    obj = extension(self.__engine)
+  File "/usr/share/zeitgeist/_zeitgeist/engine/extensions/storagemonitor.py", line 120, in __init__
+    if dbus.SystemBus().name_has_owner ("net.connman"):
+  File "/usr/lib/python2.7/dist-packages/dbus/_dbus.py", line 202, in __new__
+    private=private)
+  File "/usr/lib/python2.7/dist-packages/dbus/_dbus.py", line 108, in __new__
+    bus = BusConnection.__new__(subclass, bus_type, mainloop=mainloop)
+  File "/usr/lib/python2.7/dist-packages/dbus/bus.py", line 125, in __new__
+    bus = cls._new_for_bus(address_or_type, mainloop=mainloop)
+DBusException: org.freedesktop.DBus.Error.NoServer: Failed to connect to socket /var/run/dbus/system_bus_socket: Connection refused
+3219 [2012-01-27 20:19:42,017] - DEBUG - zeitgeist.extension - Loading extension 'SearchEngineExtension'
+3219 [2012-01-27 20:19:42,017] - DEBUG - zeitgeist.fts - Opening full text index: /home/user/.local/share/zeitgeist/fts.index
+3219 [2012-01-27 20:19:42,174] - DEBUG - zeitgeist.extension - Loading extension 'Blacklist'
+3219 [2012-01-27 20:19:42,175] - DEBUG - zeitgeist.blacklist - No existing blacklist config found
+3219 [2012-01-27 20:19:42,175] - DEBUG - zeitgeist.extension - Loading extension 'DataSourceRegistry'
+3219 [2012-01-27 20:19:42,196] - DEBUG - zeitgeist.datasource_registry - Loaded data-source data from /home/user/.local/share/zeitgeist/datasources.pickle
+3219 [2012-01-27 20:19:42,199] - INFO - root - Trying to start the datahub
+3219 [2012-01-27 20:19:42,257] - DEBUG - root - Running datahub (/usr/bin/zeitgeist-datahub) with PID=3224
+3219 [2012-01-27 20:19:42,258] - INFO - root - Starting Zeitgeist service...
+3219 [2012-01-27 20:19:42,340] - DEBUG - zeitgeist.fts - Search '(NOT category:XYZ) AND ((zgei:http://www.zeitgeist-project.com/ontologies/2010/01/27/zg#AccessEvent) AND (zgem:http://www.zeitgeist-project.com/ontologies/2010/01/27/zg#UserActivity) AND (zgsu:application___*))' gave 2 hits in 39.1941070557ms
+3219 [2012-01-27 20:19:42,403] - DEBUG - zeitgeist.engine - Found 0 events in 0.005753s
+3219 [2012-01-27 20:19:42,460] - DEBUG - zeitgeist.fts - Search '(gedit*) AND ((zgem:http://www.zeitgeist-project.com/ontologies/2010/01/27/zg#UserActivity) AND (zgsu:file_*))' gave 0 hits in 0.108003616333ms
+3219 [2012-01-27 20:21:28,224] - DEBUG - zeitgeist.fts - Indexing 'application://gedit.desktop'
+3219 [2012-01-27 20:21:28,280] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.083615s
+3219 [2012-01-27 20:21:28,281] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-27 20:21:28,765] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-27 20:22:32,697] - DEBUG - zeitgeist.fts - Indexing 'application://gedit.desktop'
+3219 [2012-01-27 20:22:32,702] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.006439s
+3219 [2012-01-27 20:22:32,703] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-27 20:22:33,200] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-27 20:26:17,514] - DEBUG - zeitgeist.fts - Indexing 'application://ubuntu-software-center.desktop'
+3219 [2012-01-27 20:26:17,552] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.041110s
+3219 [2012-01-27 20:26:17,553] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-27 20:26:18,018] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-27 20:26:27,690] - DEBUG - zeitgeist.fts - Indexing 'application://ubuntuone-installer.desktop'
+3219 [2012-01-27 20:26:27,720] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.032729s
+3219 [2012-01-27 20:26:27,721] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-27 20:26:28,192] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-27 20:32:03,526] - DEBUG - zeitgeist.fts - Indexing 'application://gedit.desktop'
+3219 [2012-01-27 20:32:04,459] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-27 20:32:04,460] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.937482s
+3219 [2012-01-27 20:32:04,461] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-27 20:39:32,486] - DEBUG - zeitgeist.fts - Indexing 'application://gedit.desktop'
+3219 [2012-01-27 20:39:32,497] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.013873s
+3219 [2012-01-27 20:39:32,497] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-27 20:39:32,990] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-27 20:41:43,175] - DEBUG - zeitgeist.fts - Indexing 'file:///home/user/darkmate.xml'
+3219 [2012-01-27 20:41:43,180] - DEBUG - zeitgeist.fts - Indexing 'file:///home/user/darkmate.xml'
+3219 [2012-01-27 20:41:43,182] - DEBUG - zeitgeist.fts - Indexing 'file:///home/user/darkmate.xml'
+3219 [2012-01-27 20:41:43,246] - DEBUG - zeitgeist.engine - Inserted 3 events out of 3 in 0.075118s
+3219 [2012-01-27 20:41:43,246] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-27 20:41:43,247] - DEBUG - zeitgeist.notify - Notifying :1.120/org/gnome/zeitgeist/monitor/0 about 3 insertions
+3219 [2012-01-27 20:41:43,258] - DEBUG - zeitgeist.fts - Search '(gedit*) AND ((zgem:http://www.zeitgeist-project.com/ontologies/2010/01/27/zg#UserActivity) AND (zgsu:file_*))' gave 3 hits in 1.24788284302ms
+3219 [2012-01-27 20:41:43,260] - DEBUG - zeitgeist.engine - Found 1 events in 0.001212s
+3219 [2012-01-27 20:41:43,262] - DEBUG - zeitgeist.engine - Got 1 raw events in 0.001768s
+3219 [2012-01-27 20:41:43,264] - DEBUG - zeitgeist.engine - Got 1 events in 0.001363s
+3219 [2012-01-27 20:41:43,264] - DEBUG - zeitgeist.engine -     Where time spent in _get_event_from_row in 0.000055s
+3219 [2012-01-27 20:41:43,264] - DEBUG - zeitgeist.engine -     Where time spent in _get_subject_from_row in 0.000067s
+3219 [2012-01-27 20:41:43,264] - DEBUG - zeitgeist.engine -     Where time spent in apply_get_hooks in 0.000012s
+3219 [2012-01-27 20:41:43,683] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-27 21:00:02,529] - DEBUG - zeitgeist.fts - Indexing 'application://firefox.desktop'
+3219 [2012-01-27 21:00:02,686] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.272620s
+3219 [2012-01-27 21:00:02,686] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-27 21:00:03,192] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-27 21:00:11,496] - DEBUG - zeitgeist.fts - Indexing 'application://firefox.desktop'
+3219 [2012-01-27 21:00:11,513] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.164143s
+3219 [2012-01-27 21:00:11,514] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-27 21:00:12,103] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-27 21:00:16,520] - DEBUG - zeitgeist.fts - Indexing 'application://firefox.desktop'
+3219 [2012-01-27 21:00:16,560] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.043411s
+3219 [2012-01-27 21:00:16,561] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-27 21:00:17,075] - DEBUG - zeitgeist.fts - Committing FTS index
+3219 [2012-01-27 21:06:05,000] - DEBUG - zeitgeist.fts - Indexing 'application://firefox.desktop'
+3219 [2012-01-27 21:06:05,250] - DEBUG - zeitgeist.engine - Inserted 1 events out of 1 in 0.265281s
+3219 [2012-01-27 21:06:05,250] - DEBUG - zeitgeist.notify - Checking monitor :1.120/org/gnome/zeitgeist/monitor/0
+3219 [2012-01-27 21:06:05,618] - DEBUG - zeitgeist.fts - Committing FTS index

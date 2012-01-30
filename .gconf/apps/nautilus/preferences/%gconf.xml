@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="thumbnail_limit" mtime="1318605883" type="int" value="0"/>
+	<entry name="date_format" mtime="1318605877" type="string">
+		<stringvalue>iso</stringvalue>
+	</entry>
+	<entry name="enable_delete" mtime="1318605872" type="bool" value="true"/>
+	<entry name="default_folder_viewer" mtime="1318605861" type="string">
+		<stringvalue>list-view</stringvalue>
+	</entry>
+	<entry name="navigation_window_saved_maximized" mtime="1327630126" type="bool" value="true"/>
+	<entry name="navigation_window_saved_geometry" mtime="1320776303" type="string">
+		<stringvalue>800x550+0+24</stringvalue>
+	</entry>
+	<entry name="start_with_sidebar" mtime="1327630126" type="bool" value="true"/>
+</gconf>

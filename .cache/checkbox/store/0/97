@@ -1,0 +1,1 @@
+ds7:commands84:xrandr -q |grep '*'| awk '{print $1}' > $CHECKBOX_DATA/resolution_before_suspend.txts11:descriptionu48:Record the current resolution before suspending.s4:names33:suspend/resolution_before_suspends6:plugins5:shells6:statuss11:uninitiateds5:suites11:__suspend__s4:types4:test;

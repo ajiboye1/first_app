@@ -1,0 +1,1 @@
+ds7:commands21:camera_test -t detects11:descriptionu52:Automated test case that attempts to detect a cameras4:names13:camera/detects6:plugins5:shells8:requiresls23:package.name == 'xawtv's28:device.category == 'CAPTURE';s6:statuss11:uninitiateds5:suites10:__camera__s4:types4:test;

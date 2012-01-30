@@ -1,0 +1,3 @@
+ds7:commands13:keyboard_tests11:descriptionu104:Select Test to open a text area where to type keys on your keyboard.
+
+Is your keyboard working properly?s4:names14:input/keyboards6:plugins6:manuals8:requiresls29:device.category == 'KEYBOARD';s6:statuss11:uninitiateds5:suites9:__input__s4:types4:test;

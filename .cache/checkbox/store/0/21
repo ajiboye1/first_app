@@ -1,0 +1,3 @@
+ds7:commands104:gst_pipeline_test -t 2 'audiotestsrc wave=sine freq=512 ! audioconvert ! audioresample ! gconfaudiosink's7:dependsls18:audio/list_devices;s11:descriptionu171:Select Test to play a sound on the automatically detected playback device.
+
+Did you hear a sound and was that sound free of any distortion, clicks or other strange noises?s4:names19:audio/playback_autos6:plugins6:manuals8:requiresls26:device.category == 'AUDIO's64:package.name == 'alsa-base' and package.name == 'python-gst0.10';s6:statuss11:uninitiateds5:suites9:__audio__s4:types4:test;

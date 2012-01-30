@@ -1,0 +1,3 @@
+ds7:commands206:connect_wireless && internet_test --interface=`nmcli dev list | grep -B 1 wireless | grep GENERAL.DEVICE | awk '{print $2}'` && for con in `cat $CHECKBOX_DATA/connections`; do nmcli con up uuid "$con"; dones7:dependsls24:suspend/suspend_advanceds31:suspend/wireless_before_suspend;s11:descriptionu213:This test checks that the wireless interface is working after suspending the system. It
+disconnects all interfaces and then connects to the wireless interface and checks that the
+connection is working as expected.s4:names30:suspend/wireless_after_suspends6:plugins5:shells6:statuss11:uninitiateds5:suites11:__suspend__s4:types4:test;

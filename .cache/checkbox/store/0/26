@@ -1,0 +1,1 @@
+ds7:commands91:hcitool dev | tail -n+2 | awk '{print $2}' |grep -E "^([0-9a-fA-F]{2}\:){5}[0-9a-fA-F]{2}$"s11:descriptionu90:Output address of detected Bluetooth device, if any, or exits with error if none is found.s4:names16:bluetooth/detects6:plugins5:shells8:requiresls23:package.name == 'bluez';s6:statuss11:uninitiateds5:suites13:__bluetooth__s4:types4:test;

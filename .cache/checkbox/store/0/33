@@ -1,0 +1,1 @@
+ds7:commands9:clocktests11:descriptionu22:Test for clock jitter.s4:names13:cpu/clocktests6:plugins5:shells8:requiresls23:package.name == 'linux';s6:statuss11:uninitiateds5:suites7:__cpu__s4:types4:test;

@@ -1,0 +1,1 @@
+ds7:commands121:hcitool dev | tail -n+2 | awk '{print $2}'; hcitool dev | tail -n+2 | awk '{print $2}' > $CHECKBOX_DATA/bluetooth_addresss11:descriptionu49:Automated test to store output in checkbox reports4:names23:bluetooth/detect-outputs6:plugins5:shells8:requiresls23:package.name == 'bluez';s6:statuss11:uninitiateds5:suites13:__bluetooth__s4:types4:test;

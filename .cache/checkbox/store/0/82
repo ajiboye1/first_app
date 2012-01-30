@@ -1,0 +1,7 @@
+ds7:commands19:xset dpms force offs11:descriptionu226:Monitor power saving verification procedure:
+ 1.- Select Test to try the power saving capabilities of your monitor.
+ 2.- The monitor should go blank.
+ 3.- Press any key or move the mouse to recover.
+
+
+Did the monitor go blank?s4:names19:monitor/powersavings6:plugins6:manuals6:statuss11:uninitiateds5:suites11:__monitor__s4:types4:test;

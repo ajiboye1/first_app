@@ -1,0 +1,1 @@
+ds7:commands78:package_resource | filter_templates -w 'desired=Install' -w 'status=Installed's4:names7:packages6:plugins8:resources6:statuss11:uninitiated;

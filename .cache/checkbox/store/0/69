@@ -1,0 +1,3 @@
+ds11:descriptionu157:Press the battery information key on the keyboard. A status window should appear and the amount of battery remaining should be displayed.
+
+Does the key work?s4:names17:keys/battery-infos6:plugins6:manuals8:requiresls50:device.product in ['Notebook','Laptop','Portable'];s6:statuss11:uninitiateds5:suites8:__keys__s4:types4:test;

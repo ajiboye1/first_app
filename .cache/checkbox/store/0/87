@@ -1,0 +1,7 @@
+ds7:commands123:cat <<'EOF' | run_templates -t -s 'udev_resource | filter_templates -w "category=CDROM"' | sed '/^$/d'
+$vendor $product
+EOFs11:descriptionu70:The following optical drives were detected:
+
+$output
+
+Is this correct?s4:names14:optical/detects6:plugins6:manuals8:requiresls26:device.category == 'CDROM';s6:statuss11:uninitiateds5:suites11:__optical__s4:types4:test;

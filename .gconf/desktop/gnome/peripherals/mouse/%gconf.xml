@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="cursor_theme" mtime="1318605017" type="string">
+		<stringvalue>DMZ-White</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,1 @@
+ds7:commands30:cat /proc/asound/card*/codec#*s4:names22:info/codecs_attachments6:plugins10:attachments8:requiresls28:device.driver == 'HDA Intel';s6:statuss11:uninitiateds5:suites8:__info__s4:types10:attachment;

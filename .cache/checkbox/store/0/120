@@ -1,0 +1,1 @@
+ds7:commands55:amixer | diff $CHECKBOX_DATA/audio_before_suspend.txt -s7:dependsls24:suspend/suspend_advanceds28:suspend/audio_before_suspend;s11:descriptionu30:Test the audio after resuming.s4:names27:suspend/audio_after_suspends6:plugins5:shells8:requiresls26:device.category == 'AUDIO's27:package.name == 'alsa-base';s6:statuss11:uninitiateds5:suites11:__suspend__s4:types4:test;

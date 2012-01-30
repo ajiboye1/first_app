@@ -1,0 +1,1 @@
+ds7:commands13:internet_tests7:dependsls24:suspend/suspend_advanceds17:networking/detect;s11:descriptionu32:Test the network after resuming.s4:names29:suspend/network_after_suspends6:plugins5:shells6:statuss11:uninitiateds5:suites11:__suspend__s4:types4:test;

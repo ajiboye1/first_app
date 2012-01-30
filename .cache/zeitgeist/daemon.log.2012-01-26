@@ -1,0 +1,20 @@
+2065 [2012-01-26 21:04:57,347] - DEBUG - singleton - Checking for another running instance...
+2065 [2012-01-26 21:04:58,295] - INFO - zeitgeist.sql - Using database: /home/user/.local/share/zeitgeist/activity.sqlite
+2065 [2012-01-26 21:04:58,409] - DEBUG - zeitgeist.sql - Core schema is good. DB loaded in 113.994121552ms
+2065 [2012-01-26 21:04:58,421] - DEBUG - zeitgeist.extension - Searching for system extensions in: /usr/share/zeitgeist/_zeitgeist/engine/extensions
+2065 [2012-01-26 21:04:58,481] - DEBUG - zeitgeist.extension - Searching for user extensions in: /home/user/.local/share/zeitgeist/extensions
+2065 [2012-01-26 21:05:01,496] - DEBUG - zeitgeist.extension - No extra extensions
+2065 [2012-01-26 21:05:01,498] - DEBUG - zeitgeist.extension - Found extensions: [<class '_zeitgeist.engine.extensions.storagemonitor.StorageMonitor'>, <class '_zeitgeist.engine.extensions.fts.SearchEngineExtension'>, <class '_zeitgeist.engine.extensions.blacklist.Blacklist'>, <class '_zeitgeist.engine.extensions.datasource_registry.DataSourceRegistry'>]
+2065 [2012-01-26 21:05:01,498] - DEBUG - zeitgeist.extension - Loading extension 'StorageMonitor'
+2065 [2012-01-26 21:05:01,714] - DEBUG - zeitgeist.storagemonitor - Creating NetworkManager network monitor
+2065 [2012-01-26 21:05:01,749] - DEBUG - zeitgeist.storagemonitor - NetworkManager network state: 70
+2065 [2012-01-26 21:05:01,749] - DEBUG - zeitgeist.storagemonitor - Setting storage medium net 'Internet' as available
+2065 [2012-01-26 21:05:02,286] - DEBUG - zeitgeist.extension - Loading extension 'SearchEngineExtension'
+2065 [2012-01-26 21:05:02,288] - DEBUG - zeitgeist.fts - Opening full text index: /home/user/.local/share/zeitgeist/fts.index
+2065 [2012-01-26 21:05:04,015] - DEBUG - zeitgeist.extension - Loading extension 'Blacklist'
+2065 [2012-01-26 21:05:04,026] - DEBUG - zeitgeist.blacklist - No existing blacklist config found
+2065 [2012-01-26 21:05:04,027] - DEBUG - zeitgeist.extension - Loading extension 'DataSourceRegistry'
+2065 [2012-01-26 21:05:04,072] - DEBUG - zeitgeist.datasource_registry - Loaded data-source data from /home/user/.local/share/zeitgeist/datasources.pickle
+2065 [2012-01-26 21:05:04,081] - INFO - root - Trying to start the datahub
+2065 [2012-01-26 21:05:04,222] - DEBUG - root - Running datahub (/usr/bin/zeitgeist-datahub) with PID=2139
+2065 [2012-01-26 21:05:04,224] - INFO - root - Starting Zeitgeist service...

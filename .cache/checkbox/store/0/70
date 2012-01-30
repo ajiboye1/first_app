@@ -1,0 +1,5 @@
+ds11:descriptionu313:Press the wireless networking key on the keyboard. The bluetooth icon and the network connnection should go down if connected through the wifi interface.
+
+Press the same key again and check that bluetooth icon is again displayed and that the network connection is re-established automatically.
+
+Does the key work?s4:names13:keys/wirelesss6:plugins6:manuals8:requiresls50:device.product in ['Notebook','Laptop','Portable'];s6:statuss11:uninitiateds5:suites8:__keys__s4:types4:test;

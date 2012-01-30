@@ -1,0 +1,5 @@
+ds7:commands15:resolution_tests11:descriptionu94:This display is using the following resolution:
+
+$output
+
+Is this acceptable for your display?s4:names19:graphics/resolutions6:plugins6:manuals8:requiresls26:device.category == 'VIDEO';s6:statuss11:uninitiateds5:suites12:__graphics__s4:types4:test;

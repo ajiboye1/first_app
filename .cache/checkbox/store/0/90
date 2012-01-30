@@ -1,0 +1,3 @@
+ds7:dependsls14:optical/detect;s11:descriptionu131:The detected optical drive seems to support writing. Enter a blank CDROM into your drive and try writing to it.
+
+Does writing work?s4:names19:optical/cdrom-writes6:plugins6:manuals8:requiresls26:device.category == 'CDROM';s6:statuss11:uninitiateds5:suites11:__optical__s4:types4:test;

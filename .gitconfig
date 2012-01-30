@@ -1,0 +1,7 @@
+[user]
+	name = Kemi Ajiboye
+	email = ajiboye1@umbc.edu
+[alias]
+	co = checkout
+[core]
+	editor = gedit -w

@@ -1,0 +1,5 @@
+ds7:commands12:network_tests11:descriptionu64:Detecting your network controller(s):
+
+$output
+
+Is this correct?s4:names17:networking/detects6:plugins6:manuals8:requiresls61:device.category == 'NETWORK' or device.category == 'WIRELESS';s6:statuss11:uninitiateds5:suites14:__networking__s4:types4:test;

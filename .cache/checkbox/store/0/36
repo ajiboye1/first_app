@@ -1,0 +1,1 @@
+ds7:commands95:udev_resource | filter_templates -w "category=DISK" | awk -F': ' '$1 == "product" { print $2 }'s11:descriptionu50:Detects and displays disks attached to the system.s4:names11:disk/detects6:plugins5:shells6:statuss11:uninitiateds5:suites8:__disk__s4:types4:test;

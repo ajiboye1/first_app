@@ -1,0 +1,3 @@
+ds7:commands20:alsa_record_playbacks11:descriptionu440:Connect a USB audio device to your system.  Then open the volume control application by left-clicking on the speaker icon in the panel and selecting "Sound Preferences".  Select the "Input" tab and choose your USB device.  Select the "Output" tab and choose your USB device.  When you are done, select Test, then speak into the microphone.  After a few seconds, your speech will be played back to you.
+
+Did you hear your speech played back?s4:names30:audio/alsa_record_playback_usbs6:plugins6:manuals8:requiresls26:device.category == 'AUDIO's27:package.name == 'alsa-base';s6:statuss11:uninitiateds5:suites9:__audio__s4:types4:test;

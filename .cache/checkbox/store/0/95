@@ -1,0 +1,1 @@
+ds7:commands16:test -e /dev/rtcs11:descriptionu55:Make sure that the RTC (Real-Time Clock) device exists.s4:names20:power-management/rtcs6:plugins5:shells8:requiresls23:package.name == 'linux';s6:statuss11:uninitiateds5:suites20:__power-management__s4:types4:test;

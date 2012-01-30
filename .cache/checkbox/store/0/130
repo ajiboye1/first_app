@@ -1,0 +1,7 @@
+ds7:commands13:network_checks11:descriptionu328:Wireless network connection procedure:
+1.- Click on the Network Manager applet
+2.- Select a network below the 'Wireless networks' section
+3.- Notify OSD should confirm that the connection has been established
+4.- Select Test to verify that it's possible to establish an HTTP connection
+
+Was the connection correctly established?s4:names28:wireless/wireless_connections6:plugins6:manuals8:requiresls29:device.category == 'WIRELESS';s6:statuss11:uninitiateds5:suites12:__wireless__s4:types4:test;

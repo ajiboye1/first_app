@@ -1,0 +1,1 @@
+ds7:commands43:lsusb | sed 's/.*\(ID .*\)/\1/' | head -n 4s11:descriptionu54:Detects and shows USB devices attached to this system.s4:names10:usb/detects6:plugins5:shells8:requiresls23:package.name == 'linux';s6:statuss11:uninitiateds5:suites7:__usb__s4:types4:test;

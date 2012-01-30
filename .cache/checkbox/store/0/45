@@ -1,0 +1,5 @@
+ds7:commands6:xrandrs11:descriptionu99:The following screens and video modes have been detected on your system:
+
+$output
+
+Is this correct?s4:names28:graphics/xrandr_detect_modess6:plugins6:manuals8:requiresls22:package.name == 'xorg';s6:statuss11:uninitiateds5:suites12:__graphics__s4:types4:test;

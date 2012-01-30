@@ -1,0 +1,1 @@
+ds7:commands12:cpu_topologys11:descriptionu32:Checks cpu topology for accuracys4:names12:cpu/topologys6:plugins5:shells8:requiresls87:int(cpuinfo.count) > 1 and (cpuinfo.platform == 'i386' or cpuinfo.platform == 'x86_64');s6:statuss11:uninitiateds5:suites7:__cpu__s4:types4:test;

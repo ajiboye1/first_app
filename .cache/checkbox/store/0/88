@@ -1,0 +1,3 @@
+ds7:commands26:optical_read_test /dev/sr0s7:dependsls14:optical/detect;s11:descriptionu176:Please insert appropriate non-blank media into your optical drive(s) and click "Test" to automatically test reading.
+
+The test result will be updated when the test is complete.s4:names16:optical/read_sr0s6:plugins6:manuals8:requiresls103:device.path == "/devices/pci0000:00/0000:00:07.1/host1/target1:0:0/1:0:0:0" and package.name == 'linux';s6:statuss11:uninitiateds5:suites12:optical/reads4:types4:tests4:users4:root;

@@ -1,0 +1,24 @@
+(lp1
+(S'com.zeitgeist-project,datahub,recent'
+p2
+VRecently Used Documents
+p3
+VLogs events from GtkRecentlyUsed
+p4
+(lp5
+I01
+L1327884273389L
+I01
+tp6
+a(S'com.zeitgeist-project,datahub,gio-launch-listener'
+p7
+VLaunched desktop files
+p8
+VLogs events about launched desktop files using GIO
+p9
+(lp10
+I01
+L1327884273389L
+I01
+tp11
+a.

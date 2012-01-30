@@ -1,0 +1,4 @@
+ds7:commands20:camera_test -t videos7:dependsls13:camera/detect;s11:descriptionu147:Select Test to capture video to a file and open it in totem.
+Please make sure that both audio and video is captured.
+
+Did you see/hear the capture?s4:names12:camera/videos6:plugins6:manuals8:requiresls32:package.name == 'python-gst0.10's23:package.name == 'totem's28:device.category == 'CAPTURE';s6:statuss11:uninitiateds5:suites10:__camera__s4:types4:test;

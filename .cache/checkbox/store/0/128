@@ -1,0 +1,6 @@
+ds7:commands11:usb_test -ts11:descriptionu270:USB HDD verification procedure:
+1.- Plug a USB HDD or thumbdrive into the computer
+2.- An icon should appear on the desktop and in the "Places" menu at the top of the screen.
+3.- Click Test to begin
+
+If the test is successful, you should see the Yes radio button marked.s4:names20:usb/storage-transfers6:plugins6:manuals8:requiresls23:package.name == 'linux';s6:statuss11:uninitiateds5:suites7:__usb__s4:types4:test;

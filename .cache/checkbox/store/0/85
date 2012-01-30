@@ -1,0 +1,1 @@
+ds7:commands13:internet_tests7:dependsls17:networking/detect;s11:descriptionu59:Tests whether the system has a working Internet connection.s4:names19:networking/internets6:plugins5:shells6:statuss11:uninitiateds5:suites14:__networking__s4:types4:test;

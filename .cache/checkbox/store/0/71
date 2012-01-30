@@ -1,0 +1,10 @@
+ds11:descriptionu199:The keyboard may have dedicated keys for controlling media as follows:
+
+* Play/Pause
+* Stop
+* Forward
+* Backward (Rewind)
+
+Play a media file and press each key in turn.
+
+Do the keys work as expected?s4:names18:keys/media-controls6:plugins6:manuals8:requiresls29:device.category == 'KEYBOARD';s6:statuss11:uninitiateds5:suites8:__keys__s4:types4:test;

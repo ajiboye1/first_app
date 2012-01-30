@@ -1,0 +1,1 @@
+ds7:commands56:meminfo_resource > $CHECKBOX_DATA/meminfo_before_suspends11:descriptionu74:Dumps memory info to a file for comparison after suspend test has been runs4:names29:suspend/memory_before_suspends6:plugins5:shells8:requiresls23:package.name == 'linux';s6:statuss11:uninitiateds5:suites11:__suspend__s4:types4:test;
